@@ -1,0 +1,141 @@
+.nav-con{
+    display: flex;
+    margin-left: 240px;
+    margin-top: 54px;
+    margin-bottom: 39px;
+    gap: 10px;
+}
+.jr-nav{
+    width: 40.041px;
+    height: 30px;  
+    margin-top: 60px;
+}
+
+.fast-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.sec-nav{
+    display: flex;
+    margin-right: 240px;
+    margin-top: 54px;
+    margin-bottom: 39px;
+    gap: 20px;
+    
+}
+.uy{
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500; 
+}
+.ui-nav{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700; 
+    text-align: center;
+}
+.ul-col{
+ color: #FF42A5;
+}
+.last-con{
+    display: flex;
+    justify-content: space-between;
+
+}
+.st-img{
+    width: 500px;
+}
+
+.fast-nav li{
+    list-style: none;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500; 
+    margin-bottom: 10px;
+}
+.btn-primary{
+    border-radius: 48px; 
+    padding: 14px;
+}
+.asif{
+   background-color: #FF42A5;
+   padding-top: 5px;
+   margin-top: 10px;
+   
+}
+.rasel{
+   background-color: #4EC5F7;
+   padding-top: 5px;
+   margin-top: 10px;
+}
+.fast-nav{
+    margin-left: 240px;
+    width: 901px;
+height: 600px
+}
+.vast-nav{
+    padding-right: 200px;
+}
+.h-nav{
+    margin-top: 70px;
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 40px;
+}
+.i-nav{
+    font-family: Work Sans;
+    font-size: 60px; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* responsive media */
+/* mobile */
+@media screen and (max-width: 576px) {
+    .fast-con, 
+    .nav-con,
+    .sec-nav,
+    .fast-nav,
+    .last-con{
+flex-direction: column;
+    }
+    .nav-con{
+        margin-left: 0px;
+    }
+
+    .sec-nav{
+        margin-right: 0px;
+        margin-top: 0px;
+            }
+     .ui-nav{
+        font-size: 100%;
+     }
+     .st-img {
+        width: 300px;
+    }
+    .h-nav{
+        
+    }
+    .fast-nav{
+        margin-left: 100px;
+        margin-top: 250px;
+        
+
+    }
+
+
+}
+
+
