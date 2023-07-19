@@ -354,7 +354,7 @@ flex-direction: column;
 /* finished Online Games Funny Videos */
 
 
-@media screen and (max-width: 576px) {
+@media screen (min-width: 576px) and (max-width: 576px) {
     .port, .portp{
        flex-direction: column;
        grid-template-columns: repeat(5, 1fr);
