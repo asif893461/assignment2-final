@@ -8,7 +8,9 @@
 }
 .jr-nav{
     width: 40.041px;
-    height: 30px;  
+    height: 30px;
+    font-family: Work Sans;
+       
     margin-top: 60px;
 }
 
@@ -227,6 +229,56 @@ font-family: Work Sans;
 /* End Multiple Game Section */
 
 
+/*  start footer section last-section */
+.foot2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 40px;
+}
+.foot3{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 50px;
+    color: #FFF;;
+}
+.foot4{
+    list-style: none;
+}
+.foot5{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 60px;
+    padding-top: 50px;
+    color: rgba(255, 255, 255, 0.60); 
+}
+.foot-7{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.60); 
+}
+.foot-8{
+    font-family: Work Sans;
+font-size: 45px; 
+
+}
+.foot-9{
+   height: 30px;
+   align-items: center;
+}
+.footer-section{
+    background-color: #0B0223;
+    height: 430px; 
+    color: #FFF;
+    
+}
+.footer-nav{
+    font-size: 20px;
+}
+
+/*  Finished footer section last-section */
+
 /* responsive media */
 /* mobile */
 /*  start play like the goat */
@@ -297,6 +349,29 @@ flex-direction: column;
     }
    }
 
+   /* start footer section last-section */
+   @media screen and (max-width: 576px) {
+    .foot2,
+    {
+      flex-direction: column;
+      
+    }
+    .foot5{
+        gap: 17px;
+    }
+    .foot3{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 15px;
+        gap: 20px;
+    }
+    .foot5{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+   }
+
+  /* end footer section last-section */
 
 /* Desktop Device */
 @media screen (min-width: 576px) and (max-width: 960px) {
@@ -361,3 +436,26 @@ flex-direction: column;
     }
    }
 /* Finished Multiple Game Section */
+
+
+@media screen (min-width: 576px) and (max-width: 960px){
+    .foot2,
+    {
+      flex-direction: column;
+      
+    }
+    .foot5{
+        gap: 25px;
+    }
+    .foot3{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 25px;
+        gap: 30px;
+    }
+    .foot5{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+   
+}
