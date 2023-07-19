@@ -196,6 +196,36 @@ background-clip: text;
 }
 /*Finished Play Instantly,No Downloads No Installs. */
 
+/* Start Multiple Game Section */
+.port{
+    min-height: 200px;
+    margin-top: 100px;
+    margin-left: 30px;
+    display: flex;
+    grid-template-columns: repeat(5,1fr);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.portp{
+    display: flex;
+    gap: 10px;
+}
+.fpoy{
+    margin-left: 70px;
+}
+.la-pre{
+   width: 50px;
+   height: 50px; 
+   border-radius: 50px;
+}
+.kl{
+    color: #0B0223;
+font-family: Work Sans; 
+}
+/* End Multiple Game Section */
+
 
 /* responsive media */
 /* mobile */
@@ -257,6 +287,15 @@ flex-direction: column;
     gap: 0px;
    }
    }
+   
+   /* Start Multiple Game Section */
+
+   @media screen and (max-width: 576px) {
+    .port, .portp{
+       flex-direction: column;
+       grid-template-columns: repeat(3, 1fr);
+    }
+   }
 
 
 /* Desktop Device */
@@ -303,7 +342,7 @@ flex-direction: column;
     display: 100%;
   }
 }
-/* finished Online Games Funny Videos */
+
 
 
 @media screen (min-width: 576px) and (max-width: 960px){
@@ -312,3 +351,13 @@ flex-direction: column;
        }
 }
 
+/* finished Online Games Funny Videos */
+
+
+@media screen and (max-width: 576px) {
+    .port, .portp{
+       flex-direction: column;
+       grid-template-columns: repeat(5, 1fr);
+    }
+   }
+/* Finished Multiple Game Section */
