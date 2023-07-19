@@ -105,9 +105,53 @@
 /* finished play like the goat */
 
 
+.s-online{
+    text-align: center;
+}
+.i-online{
+    color: #0B0223;
+
+font-family: Work Sans;
+font-size: 48px;
+
+margin-top: 100px;
+
+
+}
+.j-online{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans; 
+}
+.k-online{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+
+line-height: 30px;
+}
+.l-online{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 28px;
+    
+}
+.m-img{
+    width: 342px;
+height: 400px; 
+}
+.o-online{
+    color: #534C64;  
+}
+
+
 /* responsive media */
 /* mobile */
-
+/*  start play like the goat */
 @media screen and (max-width: 576px) {
     .fast-con, 
     .nav-con,
@@ -135,14 +179,20 @@ flex-direction: column;
     }
     .fast-nav{
         margin-left: 100px;
-        margin-top: 250px;
-        
+        margin-top: 250px;  
 
     }
-    /* finished play like the goat */
-
-
+    /* start finished play like the goat */
 }
+
+/* Online Games Funny Videos */
+@media screen and (max-width: 576px) {
+ .l-online{
+    grid-template-columns: repeat(1,1fr);
+    gap: 60px;
+}
+}
+
 
 /* Desktop Device */
 @media screen (min-width: 576px) and (max-width: 960px) {
@@ -175,9 +225,17 @@ flex-direction: column;
     .fast-nav{
         margin-left: 200px;
         margin-top: 270px;
-        
-
     }
      /* finished play like the goat */
+}
+
+@media screen (min-width: 576px) and (max-width: 960px){
+    .l-online{
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+  .m-img{
+    display: 100%;
+  }
 }
 
