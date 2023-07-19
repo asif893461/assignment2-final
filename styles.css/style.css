@@ -1,3 +1,4 @@
+/* play like the goat */
 .nav-con{
     display: flex;
     margin-left: 240px;
@@ -79,9 +80,10 @@
    margin-top: 10px;
 }
 .fast-nav{
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     margin-left: 240px;
     width: 901px;
-height: 600px
+    height: 600px
 }
 .vast-nav{
     padding-right: 200px;
@@ -100,9 +102,12 @@ height: 600px
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
+/* finished play like the goat */
+
 
 /* responsive media */
 /* mobile */
+
 @media screen and (max-width: 576px) {
     .fast-con, 
     .nav-con,
@@ -134,8 +139,45 @@ flex-direction: column;
         
 
     }
+    /* finished play like the goat */
 
 
 }
 
+/* Desktop Device */
+@media screen (min-width: 576px) and (max-width: 960px) {
+    .fast-con, 
+    .nav-con,
+    .sec-nav,
+    .fast-nav,
+    .last-con{
+flex-direction: column;
+    }
+    .nav-con{
+        margin-left: 0px;
+    }
+
+    .sec-nav{
+        margin-right: 0px;
+        margin-top: 0px;
+            }
+     .ui-nav{
+        font-size: 100%;
+     }
+     .st-img {
+        width: 350px;
+    }
+    .fast-nav{
+        display: 5%;
+        
+
+    }
+    .fast-nav{
+        margin-left: 200px;
+        margin-top: 270px;
+        
+
+    }
+     /* finished play like the goat */
+}
 
